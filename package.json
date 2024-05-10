@@ -1,0 +1,29 @@
+{
+  "name": "abm-global",
+  "version": "1.0.0",
+  "description": "Esta api permite la creación, obtención, modificación y eliminación de un usuario.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecordi/abm-global.git"
+  },
+  "author": "Eugenio Cordi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecordi/abm-global/issues"
+  },
+  "homepage": "https://github.com/ecordi/abm-global#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4"
+  }
+}
